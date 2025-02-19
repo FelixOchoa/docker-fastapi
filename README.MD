@@ -21,6 +21,8 @@ En este caso usé fastapi-felix entonces sería:
 docker build -t dafedev/fastapi-felix .
 ```
 
+![Evidencia de creación de la imagen](https://i.imgur.com/VSz7cI1.png)
+
 ## Ejecución de contenedor
 
 Para ejecutar el contenedor ejecutas el siguiente comando, el cual creará un contenedor con el nombre de imagen creado previamente y utilizará el puerto que se estableció para el contenedor y otro en el cual podrás acceder desde tu maquina.

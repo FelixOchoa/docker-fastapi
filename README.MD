@@ -37,4 +37,16 @@ En mi caso:
 docker run -d -p 8000:8000 --name fastapi-container dafedev/fastapi-felix
 ```
 
+![Evidencia de creación del contenedor](https://i.imgur.com/65odTNA.png)
+
+![Evidencia del contenedor ejecutándose en Docker Desktop](https://i.imgur.com/lJCKhed.png)
+
 Luego visualizas en tu navegador la URL y ya puedes acceder al resultado:
+
+![Evidencia de la aplicación ejecutándose en el navegador](https://i.imgur.com/QpZljr3.png)
+
+## Imagen de docker en Docker Hub:
+
+![Evidencia de la aplicación ejecutándose en el navegador](https://i.imgur.com/VNRxSoK.png)
+
+Enlace para visitiar el repositorio: https://hub.docker.com/r/dafedev/fastapi-felix

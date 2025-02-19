@@ -1,13 +1,14 @@
-FROM python:3.9-slim
 
-WORKDIR /code
+FROM python:3.10
 
-COPY ./requirements.txt /code/requirements.txt
+WORKDIR /app
 
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+COPY . /app
 
-COPY ./app /code/app
+COPY ./requirements.txt /app/requirements.txt
 
-EXPOSE 8080
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
-CMD ["uvicorn", "fastapi:app", "--host", "0.0.0.0", "--port", "8080"]
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

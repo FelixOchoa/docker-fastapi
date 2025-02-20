@@ -49,4 +49,4 @@ Luego visualizas en tu navegador la URL y ya puedes acceder al resultado:
 
 ![Evidencia de la aplicación ejecutándose en el navegador](https://i.imgur.com/VNRxSoK.png)
 
-Enlace para visitiar el repositorio: https://hub.docker.com/r/dafedev/fastapi-felix
+Enlace para visitiar el repositorio: https://hub.docker.com/r/dafedev/fastapi-app-cross-platform
